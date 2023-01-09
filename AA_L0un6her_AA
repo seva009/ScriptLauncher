@@ -1,0 +1,40 @@
+#!/bin/bash
+source list.cfg
+echo 1. $one
+sleep 0.1
+echo 2. $two
+sleep 0.1
+echo 3. $three
+sleep 0.1
+echo 4. $four
+sleep 0.1
+echo 5. $five
+sleep 0.1
+echo 6. $six
+sleep 0.1
+echo 7. $seven
+sleep 0.1
+echo 8. $eight
+
+#launch
+
+echo -n "Enter the num => "
+read ans
+	if [[ "$ans" == "1" ]]; then
+		sudo ./$AU 
+		sleep 1000
+	elif [[ "$ans" == "2" ]]; then
+		sudo ./$... #enter there name of your script
+		sleep 10000000000000000000000
+	else
+		echo "..."
+		sleep 3
+	fi
+		if [[ "$ans" == "3" ]]; then
+		sudo ./$... #and there
+		sleep 10000000000000000000000
+	else
+		echo "Programm not found!"
+	fi
+sleep 100000
+

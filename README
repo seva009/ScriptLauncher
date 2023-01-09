@@ -1,0 +1,17 @@
+This is a mini script 4 launch another scripts
+4 this you need add name there list.cfg (four="-X-")
+And name of script there 
+#Names_____________
+
+AU="AppUtility.sh"
+smth="YourScript.sh" <=
+
+#------------------
+
+And there
+
+	if [[ "$ans" == "2" ]]; then
+		sudo ./$YourScript
+		sleep 1000
+		
+   #By Empers0n_
