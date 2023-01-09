@@ -1,2 +1,0 @@
-# ScriptLauncher
-Mini script launcher
